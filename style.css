@@ -1,0 +1,108 @@
+/* Use a simple, modern font for readability */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7fa; /* Light blue background */
+}
+
+/* Simple site header at the top */
+.site-header {
+  background-color: #1e3a4c; /* Dark blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 16px 0;
+  margin: 0;
+}
+
+/* Style for the site name */
+.site-header h2 {
+  margin: 0;
+  font-size: 1.7em;
+  letter-spacing: 2px;
+}
+
+/* CTA banner styles */
+.cta-banner {
+  background-image: url('img/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(179, 234, 242, 0.7); /* Light, subtle overlay */
+  background-blend-mode: lighten;
+  color: #145963; /* Dark teal text */
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Large main heading */
+.cta-banner h1 {
+  font-size: 2.2em;
+  margin-bottom: 28px;
+  margin-top: 0;
+  color: #145963; /* Dark teal */
+}
+
+/* Short description */
+.cta-banner p {
+  font-size: 1.1em;
+  margin-bottom: 36px;
+  margin-top: 0;
+  color: #145963; /* Dark teal */
+}
+
+/* Call-to-action button */
+.cta-button {
+  display: inline-block;
+  background-color: #2ed8c3; /* Bright teal */
+  color: #1e3a4c; /* Dark blue text */
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 6px; /* Rounded corners */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.cta-button:hover {
+  background-color: #23bfae;
+}
+
+/* Info section with two columns, centered on the page */
+.info-section {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+/* Show image and text side by side using basic CSS */
+.info-image {
+  width: 45%;
+  max-width: 300px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 5%;
+  border-radius: 8px;
+}
+
+/* Info text column */
+.info-text {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Make sure the heading and paragraph look nice */
+.info-text h3 {
+  margin-top: 0;
+  color: #145963;
+}
+
+.info-text p {
+  color: #145963;
+  font-size: 1em;
+}
